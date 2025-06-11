@@ -5,7 +5,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Touch,
 		C3.Plugins.System.Cnds.IsGroupActive,
 		C3.Plugins.System.Cnds.OnLayoutStart,
-		C3.JavaScriptInEvents.Main_Event2_Act1
+		C3.JavaScriptInEvents.Main_Event2_Act1,
+		C3.Plugins.Touch.Cnds.OnTapGestureObject,
+		C3.JavaScriptInEvents.Main_Event3_Act1
 	];
 };
 self.C3_JsPropNameTable = [

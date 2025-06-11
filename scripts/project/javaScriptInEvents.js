@@ -118,6 +118,11 @@ const scriptsInEvents = {
 		  }
 		})();
 		
+	},
+
+	async Main_Event3_Act1(runtime, localVars)
+	{
+		loginWithGoogle();
 	}
 };
 
