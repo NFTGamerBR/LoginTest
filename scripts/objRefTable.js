@@ -68,7 +68,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.System.Acts.CreateObject,
 		C3.Plugins.System.Cnds.EveryTick,
-		C3.Plugins.System.Cnds.CompareBoolVar
+		C3.Plugins.System.Cnds.CompareBoolVar,
+		C3.Plugins.Browser.Acts.RequestFullScreen
 	];
 };
 self.C3_JsPropNameTable = [
@@ -115,6 +116,7 @@ self.C3_JsPropNameTable = [
 	{nivel: 0},
 	{logged: 0},
 	{cenouras: 0},
+	{tap: 0},
 	{user_token: 0},
 	{URL_DB: 0},
 	{URL_SINGUP: 0},
