@@ -76,7 +76,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet,
 		C3.Plugins.System.Acts.SubVar,
 		C3.Plugins.System.Cnds.Every,
-		C3.Plugins.Sprite.Acts.SetAnimFrame
+		C3.Plugins.Sprite.Acts.SetAnimFrame,
+		C3.Plugins.Sprite.Acts.MoveToTop
 	];
 };
 self.C3_JsPropNameTable = [
@@ -122,6 +123,8 @@ self.C3_JsPropNameTable = [
 	{plantado: 0},
 	{podeColher: 0},
 	{cenouraCresce: 0},
+	{Galinheiro: 0},
+	{Sprite4: 0},
 	{Family1: 0},
 	{Form: 0},
 	{email: 0},
@@ -177,6 +180,8 @@ self.InstanceType = {
 	sementeCenouraTXT: class extends self.ITextInstance {},
 	timerPlot1: class extends self.ITextInstance {},
 	cenouraCresce: class extends self.ISpriteInstance {},
+	Galinheiro: class extends self.ISpriteInstance {},
+	Sprite4: class extends self.ISpriteInstance {},
 	Family1: class extends self.ISpriteInstance {},
 	Form: class extends self.ITextInputInstance {}
 }
